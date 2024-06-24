@@ -1,0 +1,168 @@
+*{
+    font-family: "Black Ops One", system-ui;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#fixed-subtitle{
+    background-color: #d8791a;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    
+    
+}
+
+.heading-brew-beans{
+
+    font-size: 120px;
+    color: rgb(48, 31, 19);
+    text-shadow: -5px 5px 5px  black;
+    
+}
+
+
+
+#contant-heading{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    
+}
+
+
+#contant-paragraph{
+
+    text-align: justify;
+    width: 60%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#sub-headings{
+
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    font-weight:bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+   
+}
+
+
+#sub-headings p{
+
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    font-weight:bolder;
+    color: rgb(48, 31, 19);
+    text-shadow: 2px 3px 4px black;
+   
+}
+
+#sub-headings:hover p{
+    transform: scale(1.1);
+    text-shadow: -15px 15px 15px;
+    transition: transform 0.6s ease;
+    
+  }
+#types-first-section{
+    font-family: serif;
+     font-size: larger;
+     text-align: justify;
+}
+
+.types-contant{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: justify;
+    
+}
+
+.top-brand-sub-heading
+{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#top-brand-img:hover img{
+
+    box-shadow: 0 1px 2px 5px #DFBB96;
+   
+   
+    opacity: 0.9;
+  
+}
+  
+
+.topbrand-paragraph{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: justify;
+    
+
+}
+
+#gallery-img{
+
+    border-radius: 25px;
+}
+
+#gallery-img:hover{
+
+    border-radius: 55px;
+    box-shadow: 5px 6px 8px black;
+    transform: scale(1.1);
+    transition: transform 0.9s ease;
+}
+
+#name{
+
+    background-color: #F4ECE6;
+}
+
+#email{
+    
+     background-color: #F4ECE6;
+}
+
+#quary{
+
+    background-color: #F4ECE6;
+
+}
+
+#button{
+
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    font-weight:bolder;
+    color: #F4ECE6;
+    background-color: rgb(48, 31, 19);
+    margin-left: 400px;
+   margin-bottom: 20px;
+    
+   
+}
+
+#footer{
+
+    background-color: #DFBB96;
+    width: 100%;
+    position: sticky;
+    bottom: 1;
+    padding-bottom: 20PX;
+
+   
+}
+
+#footer-icon:hover img{
+
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    
+}
